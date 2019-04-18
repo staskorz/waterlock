@@ -1,3 +1,5 @@
+# **NOTICE:** This package was forked for resolving compatibility issues with Sails v1.x and Node.js v10 for one specific project. **Use it at your own risk.**
+
 [![Waterlock][waterlock-image]][waterlock-url]
 -----------------------------------------------
 
