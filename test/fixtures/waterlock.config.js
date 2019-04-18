@@ -24,7 +24,7 @@ module.exports.waterlock = {
   // of the local authentication method with password reset tokens disabled.
   authMethod: [
     {
-      name:'waterlock-local-auth',
+      name:'waterlock-local-auth-node10',
       passwordReset:{
         tokens: false,
         mail: {
