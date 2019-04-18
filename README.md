@@ -1,5 +1,3 @@
-# **NOTICE:** This package was forked for resolving compatibility issues with Sails v1.x and Node.js v10 for one specific project. **Use it at your own risk.**
-
 [![Waterlock][waterlock-image]][waterlock-url]
 -----------------------------------------------
 
@@ -20,7 +18,7 @@ Authentication is handled via methods. The current supported methods are:
 
 | Method | Library |
 | ------------- | ------------- |
-| Local Auth | [waterlock-local-auth-node10](https://github.com/staskorz/waterlock-local-auth) |
+| Local Auth | [waterlock-local-auth](https://github.com/waterlock/waterlock-local-auth) |
 | Twitter Auth | [waterlock-twitter-auth](https://github.com/waterlock/waterlock-twitter-auth) |
 | Facebook Auth | [waterlock-facebook-auth](https://github.com/waterlock/waterlock-facebook-auth) |
 | Google Auth | [waterlock-google-auth](https://github.com/waterlock/waterlock-google-auth) |
@@ -33,8 +31,8 @@ Since sails currently has no official support for 3rd party libraries like Rails
 # How do I use it
 Glad you asked! If you're on a fresh install of a Sails app first run
 ```bash
-npm install waterlock-node10
-npm install waterlock-local-auth-node10
+npm install waterlock
+npm install waterlock-local-auth
 ```
 
 then run on mac/linux
